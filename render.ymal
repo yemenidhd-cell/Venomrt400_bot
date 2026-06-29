@@ -1,0 +1,16 @@
+services:
+  - type: worker
+    name: salfi-pro-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    plan: free
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: DEV_USERNAME
+        sync: false
+      - key: DEV_CHANNEL
+        sync: false
+      - key: BOT_NAME
+        sync: false

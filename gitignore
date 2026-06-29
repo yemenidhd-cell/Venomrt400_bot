@@ -1,0 +1,12 @@
+*.pyc
+__pycache__/
+data.db
+.env
+*.log
+.DS_Store
+*.sqlite3
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
