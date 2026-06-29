@@ -19,7 +19,6 @@ import sqlite3
 import hashlib
 import datetime
 import asyncio
-import aiohttp
 import requests
 from typing import Optional, Dict, List, Tuple
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, ParseMode
