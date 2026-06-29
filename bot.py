@@ -25,7 +25,7 @@ from typing import Optional, Dict, List, Tuple
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.constants import ParseMode
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, MessageHandler, filters, ContextTypes
-from telegram.request import HTTPXReques
+from telegram.request import HTTPXRequest
 # ======== التوكن والمطور ========
 TOKEN = "8677214390:AAE7F01Nb2A6CImAD-brYfT-6hi8fTPzkE0"
 DEV_USERNAME = "Venom400"
