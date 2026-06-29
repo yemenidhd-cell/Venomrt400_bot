@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+#!/usr/bin/env python3
 # 🇾🇪 السلفي برو للأدوات – البوت الاحترافي
 # 👨‍💻 المطور: @Venom400
 # 🔱 LØGHØST-Z 💀
@@ -21,10 +22,10 @@ import datetime
 import asyncio
 import requests
 from typing import Optional, Dict, List, Tuple
-from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, ParseMode
-from telegram.ext import Application, CommandHandler, CallbackQueryHandler, MessageHandler, filters, ContextTypes, ConversationHandler
-from telegram.request import HTTPXRequest
-
+from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
+from telegram.constants import ParseMode
+from telegram.ext import Application, CommandHandler, CallbackQueryHandler, MessageHandler, filters, ContextTypes
+from telegram.request import HTTPXReques
 # ======== التوكن والمطور ========
 TOKEN = "8677214390:AAE7F01Nb2A6CImAD-brYfT-6hi8fTPzkE0"
 DEV_USERNAME = "Venom400"
